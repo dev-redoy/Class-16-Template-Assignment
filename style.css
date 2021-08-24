@@ -1,0 +1,177 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* ========================================
+header part
+========================================  */
+img{
+    max-width: 100%;
+}
+.header{
+    background-color: #101446;
+}
+.logo{}
+.logo img{
+    width: 100px;
+}
+
+.menu{}
+.menu ul{
+    margin: 0;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 62px;
+}
+.menu ul li a:hover{}
+
+/* ========================================
+slider section part
+========================================  */
+.banner{
+  background-image: url(./img/intro-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 300px 0;
+}
+.banner-content{}
+.banner-content h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.banner-content p{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-content a{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    background-color: #337AB7;
+    border-color: #337AB7;
+}
+
+/* ========================================
+Member section section part
+========================================  */
+.teem-members{
+    background-color: #BAC1F3;
+}
+.teem-members h1{
+    font-weight: 500;
+    font-size: 80px;
+}
+.teem-members img{
+    width: 50%;
+}
+.teem-members h5{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0;
+}
+.teem-members p{
+    font-family: 'Roboto', sans-serif;
+    padding: 0 25%;
+    color: rgb(63, 60, 60);
+}
+.teem-members a{
+    font-weight: 600;
+    background-color: #337AB7;
+    border-color: #337AB7;
+}
+
+/* ========================================
+About section section part
+========================================  */
+.about{
+    background-color: #C2D4EA;
+}
+.about-title h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-image{}
+.about-image img {
+    margin-bottom: 20px;
+}
+.image-details p{
+    color: rgb(63, 60, 60);
+    font-family: 'Roboto', sans-serif;
+    padding-right: 30px;
+}
+
+.about-details{}
+.about-details p {
+    line-height: 15px;
+    font-weight: 500;
+    margin-left: -40px;
+    color: rgb(63, 60, 60);
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-content{}
+.about-content h4 {
+    font-size: 20px;
+    color: rgb(63, 60, 60);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about-content p{
+    color: rgb(63, 60, 60);
+    font-family: 'Roboto', sans-serif;
+}
+/* ========================================
+contact section section part
+========================================  */
+.contact{
+    background-color: #F5F5F5;
+}
+.contact-title{
+    text-align: center;
+}
+.contact-title h2{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.contact-map{}
+.form-part{}
+.form-part label{
+    font-weight: 600;
+    font-size: 20px;
+}
+.form-part input{}
+.form-part .submit{
+    background-color: #5BC0DE;
+    border: #5BC0DE;
+    font-weight: 600;
+}
+/* ========================================
+Footer section section part
+========================================  */
+.footer{
+    background-color: #0062D3;
+}
+.footer p{
+    line-height: 10px;
+}
+.footer span{
+    font-weight: 700;
+}
